@@ -5,9 +5,11 @@
 @import "./base/common";
 @import "./base/container";
 
+// COMPONENTS
+@import "./components/social-links";
+
 // LAYOUTS
 @import "./layouts/header";
 @import "./layouts/footer";
 @import "./layouts/portfolio-filters";
 @import "./layouts/portfolio-projects";
-@import "./components/social-links";
