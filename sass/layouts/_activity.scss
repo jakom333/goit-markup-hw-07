@@ -1,0 +1,51 @@
+.activity {
+    padding-bottom: 94px;
+
+    .list {
+        display: flex;
+
+        .item {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 50px;
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        color: $primary-text-color;
+    }
+}
+
+.item {
+    .text {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        bottom: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: $white-color;
+        background: rgba(47, 48, 58, 0.8);
+    }
+}
