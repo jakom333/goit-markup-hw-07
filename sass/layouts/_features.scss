@@ -1,63 +1,71 @@
 .features {
-    padding: 94px 0;
+  padding: 94px 0;
 
-    .list {
-        display: flex;
+  .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-text-color;
+  }
+
+  .text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    line-height: 1.71;
+    color: $secondary-text-color;
+  }
+
+  .list {
+    display: flex;
+  }
+
+  .properties {
+    width: 270px;
+
+    &::before {
+      content: '';
+      display: block;
+      height: 120px;
+      margin-bottom: 30px;
+      background-size: 70px 70px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: #f5f4fa;
+      border-radius: 4px;
     }
 
-    .properties {
-        width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 }
 
-    .properties::before {
-        content: '';
-        display: block;
-        height: 120px;
-        margin-bottom: 30px;
-        background-size: 70px 70px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: #f5f4fa;
-        border-radius: 4px;
-    }
-
-    .properties:not(:last-child) {
-        margin-right: 30px;
-    }
-
-    .title {
-        margin-top: 0;
-        margin-bottom: 10px;
-
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
-        color: $primary-text-color;
-    }
-
-    .text {
-        margin-top: 0;
-        margin-bottom: 0;
-
-        font-size: 14px;
-        line-height: 1.71;
-        color: $secondary-text-color;
-    }
-}
-
-.icon-antenna::before {
+.icon-antenna {
+  &::before {
     background-image: url(../images/features/antenna.svg);
+  }
 }
 
-.icon-clock::before {
+.icon-clock {
+  &::before {
     background-image: url(../images/features/clock.svg);
+  }
 }
 
-.icon-diagram::before {
+.icon-diagram {
+  &::before {
     background-image: url(../images/features/diagram.svg);
+  }
 }
 
-.icon-astronaut::before {
+.icon-astronaut {
+  &::before {
     background-image: url(../images/features/astronaut.svg);
+  }
 }

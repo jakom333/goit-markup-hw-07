@@ -1,132 +1,132 @@
 footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-    background-color: #2f303a;
+  background-color: #2f303a;
 }
 
 .align-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-footer {
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 20px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
 
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: $white-color;
-    text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: $white-color;
+  text-decoration: none;
 }
 
 .office {
-    margin: 0;
+  margin: 0;
 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    color: $white-color;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: $white-color;
 }
 
 .contacts-item {
-    &:not(:last-child) {
-        margin: 0 0 9px;
-    }
+  &:not(:last-child) {
+    margin: 0 0 9px;
+  }
 }
 
 .contacts-footer {
-    display: block;
+  display: block;
 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .social-footer {
-    margin-left: 70px;
-    margin-right: 93px;
+  margin-left: 70px;
+  margin-right: 93px;
 
-    .title {
-        margin-bottom: 20px;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 1.143;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+  .title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-        color: $white-color;
-    }
+    color: $white-color;
+  }
 }
 
 .right-side {
-    display: flex;
+  display: flex;
 }
 
 .email-input {
-    .title {
-        margin-bottom: 20px;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 1.143;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+  .title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-        color: $white-color;
-    }
+    color: $white-color;
+  }
 }
 
 .inside-text {
-    width: 358px;
-    height: 50px;
-    padding: 15px 16px;
-    margin-right: 12px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
 
-    color: $white-color;
+  color: $white-color;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:focus {
-        outline: none;
-        border: 1px solid $accent-color;
-    }
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-color;
+  }
 }
 
 .icon-send {
-    margin-left: 10px;
-    fill: $white-color;
+  margin-left: 10px;
+  fill: $white-color;
 }
 
 .footer-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }

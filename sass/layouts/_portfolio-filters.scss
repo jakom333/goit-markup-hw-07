@@ -1,9 +1,11 @@
 .filters {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 34px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 34px;
 
-    .btn:not(:last-child) {
-        margin-right: 8px;
+  .btn {
+    &:not(:last-child) {
+      margin-right: 8px;
     }
+  }
 }
